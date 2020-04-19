@@ -9,27 +9,31 @@ purple="\033[37;1m"
 cyan="\033[36;1m"
 spath="$( cd "$( dirname $0 )" && pwd )"
 
-echo ""
-echo "      XXXXXXX"$green"                                        XXXXXXXX"$yellow
-echo "    XXXXXXXXXXX"$green"                                    XXXXXXXXXXXXX"$yellow
-echo "  XXXXXXXXXXXXXXX"$green"                                XXXXXXXXXXXXXXXXX"$yellow
-echo "    XXXXXXXXXX"$green"                                       XXXXXXXXXXX"$yellow
-echo "     XXXXXXXXX"$green"                                       XXXXXXXXXX"$yellow
-echo "      XXXXXXXXX"$green"                                     XXXXXXXXXX"$yellow
-echo "       XXXXXXXXX"$green"                                   XXXXXXXXXX"$yellow
-echo "        XXXXXXXXX"$green"                                 XXXXXXXXXX"$yellow
-echo "         XXXXXXXXX"$green"                               XXXXXXXXX"$yellow
-echo "          XXXXXXXXX"$green"                             XXXXXXXXX"$yellow
-echo "            XXXXXXXXX"$green"                          XXXXXXXX"$yellow
-echo "              XXXXXXXXX"$green"                      XXXXXXXX"$yellow
-echo "                XXXXXXXX"$green"                    XXXXXXXX"$yellow
-echo "                   XXXXXXX"$green"               XXXXXXX"$yellow
-echo "                       XXXXXX"$green"         XXXXXXX"$yellow
-echo "                          XXXXXXX"$green"XXXXXXX"$yellow
-echo "                            XXXXXXXXXX"$yellow
-figlet -f mini .....V Tools.....
-echo ""
-
+clear
+echo $green"        ╔═══════════╗"
+echo $green"   ╔═╝███████████╚═╗"
+echo $green"╔╝███████████████╚╗ "
+echo $green"║█████████████████║"
+echo $green"║█████████████████║"
+echo $green"║█████████████████║"
+echo $green"║█╔█████████████╗█║"
+echo $green"╚╦╝███▒▒███▒▒███╚╦╝"
+echo $green"╔╝██▒▒▒▒███▒▒▒▒██╚╗"
+echo $green"║██▒▒▒▒▒███▒▒▒▒▒██║"
+echo $green"║██▒▒▒▒█████▒▒▒▒██║"
+echo $green"╚╗███████████████╔╝"
+echo $green"╔═╬══╦╝██▒█▒██╚╦══╝.▒.."
+echo $green"║█║══║█████████║　...▒."
+echo $green"║█║══║█║██║██║█║　.▒.."
+echo $green"║█║══╚═╩══╩╦═╩═╩═╦╗▒."
+echo $green"╔╝█╚══╦═╦══╦╩═╦═╦═╩╝"
+echo $green"╔╝█████║█║██║██║█║"
+echo $green"║██████║█████████║"
+echo
+echo $green"-------------------------------"
+figlet TOOL NDK  |  lolcat
+echo $green"-------------------------------"
+echo
 ####################################################
 # CTRL + C
 ####################################################
@@ -44,7 +48,7 @@ echo "{+}> See You Next Time... " | lolcat
 sleep 1
 exit
 }
-
+echo
 echo $red"║═══════════════════════════════════════════════════════════════════════════║"
 echo $red"║    "$green"Creadby : Root@localhost~SahrulG~:#                  "$red"    ║"
 echo $red"║    "$green"Tools   : NDK TOOL TERMUX                            "$red"    ║"
